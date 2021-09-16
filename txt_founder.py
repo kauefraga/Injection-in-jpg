@@ -1,5 +1,5 @@
 # text founder
-with open('./assets/TheMan.jpg', 'rb') as b:
+with open('OtherImage.jpg', 'rb') as b:
   content = b.read()
   offset = content.index(bytes.fromhex('FFD9'))
 
